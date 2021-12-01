@@ -1,0 +1,14 @@
+li:nth-child(even) {
+  border: 1px solid black;
+}
+li:nth-child(-n + 3) {
+  letter-spacing: 1rem;
+}
+
+li:nth-last-child(1) {
+  text-decoration: line-through;
+}
+
+li::first-letter {
+  text-transform: uppercase;
+}

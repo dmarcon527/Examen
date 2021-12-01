@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Segundo</title>
+    <link rel="stylesheet" href="estiloEj2.css">
+</head>
+
+<body>
+    <main>
+        <h1>petinder</h1>
+        <header class="color">
+        </header>
+        <h2>Hazte socio</h2>
+        <p>Colabora con Petinder haciendote socio por solo 15 euros mensuales.
+            Con muy poco puedes ayudar muchoa nuestros amigos peludos.Además puedes comprar
+            nuestra exclusiva camiseta por solo 10 euros que se añadirán al primer pago.Rellena el siguiente
+            formulario
+            para unirte a nosotros: </p>
+        <form>
+            <fieldset>
+                <legend class="color">Dirección</legend>
+                <label for="calleNum">Calle y número*</label><br>
+                <input type="text" name="calleNum" placeholder="Calle y número" required><br>
+                <label for="ciudad">Ciudad*</label><br>
+                <input type="text" name="ciudad" placeholder="Ciudad" required><br>
+                <label for=" provincia">Provincia</label><br>
+                <input type="text" name="provincia" placeholder="Provincia" required><br>
+                <label for="codigoPost">Código Postal*</label><br>
+                <input type="number" name="codigoPost" placeholder="Código Postal" pattern="[0-9]{5}" required><br>
+                <label for="pais">País</label>
+                <select name="pais" id="pais" placeholder="Seleccionar">
+                    <option value="espa">España</option>
+                    <option value="port">Portugal</option>
+                </select>
+
+            </fieldset>
+            <small>*Todos los campos marcados son obligatorios</small><br>
+            <label>
+                  <input type="checkbox" name="correo" required>
+                  He leído y acepto la política de privacidad y las condiciones de uso
+                  </label> <br>
+            <input class="color" type="submit" value="Enviar">
+        </form>
+
+    </main>
+    <footer class="color">
+        2021 Petinder-Dácil Marco Contreras.
+    </footer>
+</body>
+
+</html>

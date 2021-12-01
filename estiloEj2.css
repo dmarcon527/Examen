@@ -1,0 +1,25 @@
+h1 {
+  margin-left: 10vh;
+}
+h2,
+p {
+  margin-left: 5vh;
+}
+header {
+  border-bottom: 1px dotted;
+}
+
+form {
+  margin-left: 10vh;
+  margin-right: 140vh;
+}
+
+footer {
+  margin-top: 20vh;
+}
+.color {
+  background-color: #f11;
+}
+fieldset {
+  margin: 1px dotted;
+}
